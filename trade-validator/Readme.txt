@@ -19,3 +19,4 @@ Trade-Validator is a Spring Boot based REST service. It consumes trades data in 
 - Online documentation is done using Swagger (accessible by default: http://localhost:8080/swagger-ui.html).
 - Small REST client is provided by rest-client.html page (project root folder).
 - Trade row numbers in validation response are zero based.
+- Some HA and scalability notes are included in HA.pdf file in root folder.
