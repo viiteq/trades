@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Rest Client</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="rest.js"></script>
+        <style type="text/css">
+        	label, input, select, textarea {
+				display:block;
+			}
+        </style>
+    </head>
+
+    <body>
+        <div>
+	        <div> 
+		        <label>Service URL
+		        	<input id="service-url" name="service-url" type="text" value="http://localhost:8080/validate" size="80"> 
+				</label>
+		    </div>
+		    <div> 
+		        <label>Trades JSON
+		        	<textarea id="request" rows=20 cols=80></textarea> 
+				</label>
+		    </div>
+		    <div> 
+		        <label>Validation results
+		        	<textarea id="response" rows=20 cols=80></textarea> 
+				</label>
+		    </div>
+		    <div>
+		    	<button id="validate-butt" onclick="validate()">Validate</button>
+		    </div>
+        	
+        </div>
+    </body>
+</html>
